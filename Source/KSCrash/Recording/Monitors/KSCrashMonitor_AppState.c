@@ -455,7 +455,7 @@ void kscrashstate_notifyAppCrash(void)
     }
 }
 
-const KSCrash_AppState* const kscrashstate_currentState(void)
+const KSCrash_AppState* kscrashstate_currentState(void)
 {
     return &g_state;
 }
