@@ -403,6 +403,8 @@
 		CD3DA41B1CD70F0D0037EB76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E571D17EBA8DF000C56D3 /* SystemConfiguration.framework */; };
 		DCA19E3418832A7800DCA792 /* KSCrashMonitor_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */; };
 		DCA19E3518832A8B00DCA792 /* KSCrashMonitor_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */; };
+		F6EB2DDC24A40E820055AD4D /* KSCPU_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = F6EB2DDB24A40E820055AD4D /* KSCPU_arm64.c */; };
+		F6EB2DDF24A410240055AD4D /* KSCPU_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = F6EB2DDB24A40E820055AD4D /* KSCPU_arm64.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -650,6 +652,7 @@
 		CBEE5DC71CBC19AF005EAF61 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncode.m"; path = "../../Source/KSCrash/Reporting/Tools/NSString+URLEncode.m"; sourceTree = "<group>"; };
 		CD3DA4191CD70F070037EB76 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_MachException.c; path = ../../Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.c; sourceTree = "<group>"; };
+		F6EB2DDB24A40E820055AD4D /* KSCPU_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = KSCPU_arm64.c; path = ../../Source/KSCrash/Recording/Tools/KSCPU_arm64.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -994,6 +997,7 @@
 			isa = PBXGroup;
 			children = (
 				CB25A6091DF23F0C00EC2B02 /* KSCPU_Apple.h */,
+				F6EB2DDB24A40E820055AD4D /* KSCPU_arm64.c */,
 				CB8E566B17EB9B43000C56D3 /* KSCPU_x86_32.c */,
 				CB8E566C17EB9B43000C56D3 /* KSCPU_x86_64.c */,
 				CB25A5BD1DF2209000EC2B02 /* KSCPU.c */,
@@ -1518,6 +1522,7 @@
 				CB69B8DF1DC0F106002713B1 /* KSLogger.c in Sources */,
 				CB8F1DD51CCAF3B40022CDF0 /* KSCrashInstallation+Alert.m in Sources */,
 				CB6240FB17EBCA74006471F1 /* KSCrashReportSinkQuincyHockey.m in Sources */,
+				F6EB2DDC24A40E820055AD4D /* KSCPU_arm64.c in Sources */,
 				CB6240BC17EBCA74006471F1 /* KSCrashMonitor_Deadlock.m in Sources */,
 				CBC7CCF51DA70FF6002D5DAD /* KSCrashMonitor_Zombie.c in Sources */,
 				CB6240F717EBCA74006471F1 /* KSCrashReportSinkConsole.m in Sources */,
@@ -1601,6 +1606,7 @@
 				CB8E563617EB9AFD000C56D3 /* KSCrashMonitorType.c in Sources */,
 				CB8E56FA17EB9B89000C56D3 /* NSError+SimpleConstructor.m in Sources */,
 				CB8F1DD41CCAF3B40022CDF0 /* KSCrashInstallation+Alert.m in Sources */,
+				F6EB2DDF24A410240055AD4D /* KSCPU_arm64.c in Sources */,
 				CB69B8DE1DC0F106002713B1 /* KSLogger.c in Sources */,
 				CB8E56E817EB9B89000C56D3 /* Container+DeepSearch.m in Sources */,
 				03082CD51D9181F600935324 /* KSCrashMonitor_Zombie.c in Sources */,
