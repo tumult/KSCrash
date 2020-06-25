@@ -21,6 +21,7 @@
 #import "KSCrashInstallationStandard.h"
 #import "KSCrashInstallationVictory.h"
 #import "KSCrashMonitorContext.h"
+#import "KSCrashMonitor_AppState.h"
 #import "KSCrashMonitor_System.h"
 #import "KSCrashReportFilter.h"
 #import "KSCrashReportFilterAlert.h"
